@@ -21,8 +21,6 @@ load_dotenv("D:/internship/new_flask_app/New/New/api_key.env")
 # Access the API key from the environment variables
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-#OPENAI_API_KEY = "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"
-#os.environ['OPENAI_API_KEY'] = OPENAI_API_KEY
 
 start_greeting = ["hi","hello"]
 end_greeting = ["bye"]
